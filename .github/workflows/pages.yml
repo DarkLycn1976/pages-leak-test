@@ -23,6 +23,3 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
       - uses: actions/deploy-pages@v4
         id: deployment
-
-      - name: hold
-        run: sleep 180
